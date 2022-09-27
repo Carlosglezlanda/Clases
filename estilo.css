@@ -1,0 +1,577 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+}
+
+:root{
+    --primary-color: #eb5757;
+    --secondary-color: #222;
+    --light-color: #f9f9f9;
+    --dark-color: #333;
+}
+
+header{
+    width: 100vw;
+    height: 150px;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 10;
+}
+
+header .covid{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+
+header .covid button{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header .covid p{
+    font-size: 19;
+}
+
+header .menu{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-color);
+    align-items: center;
+}
+
+header .menu div{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu div a{
+    height: 35px;
+    width: 70px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+header .menu div a:hover{
+    background-color: var(--secondary-color);
+}
+
+header .menu div button{
+    width: 47px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-image: url(carrito.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+
+header .menu div button span{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    background-color: var(--light-color);
+}
+
+main{
+    padding-top: 150px;
+    margin: 0;
+    z-index: 1;
+    width: 100vw;
+    /* background-color: rgba(0, 0, 0, 0); */
+}
+
+main .fondomain{
+    width: 100vw;
+    height: 80vh;
+    position: absolute;
+    background-size: 100%;
+    background-position: center;
+    border: none;
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+main .fondomain h1{
+    width: 25%;
+    position: relative;
+    left: 10%;
+    top: 25%;
+    color: var(--light-color);
+    font-size: 50px;
+}
+
+main .fondomain p{
+    width: 25%;
+    position: relative;
+    left: 10%;
+    top: 28%;
+    color: var(--light-color);
+    font-size: 15px;
+}
+
+main .fondomain button{
+    background-color: rgba(0 ,0 ,0, 0);
+    color: var(--light-color);
+    width: 7%;
+    height: 7%;
+    border-radius: 5px;
+    border-color: var(--light-color);
+    border-style: solid;
+    position: relative;
+    top: 33%;
+    left: 10%;
+    transition: all 0.3s ease;
+}
+
+main .fondomain button:hover{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    width: 7%;
+    height: 7%;
+    border-radius: 5px;
+    border-color: var(--light-color);
+    border-style: solid;
+    position: relative;
+    top: 33%;
+    left: 10%;
+}
+
+main .cuadros1{
+    position: absolute;
+    top: 85%;
+    left: 0%;
+    width: 100vw;
+    height: 80%;
+    border: none;
+}
+
+main .cuadros1 .text1{
+    width: 60vw;
+    height: 12%;
+    position: relative;
+    left: 10%;
+    align-content: center;
+    top: 40%;
+}
+
+main .cuadros1 .text1 .sub1{
+    font-size: 40px;
+}
+
+main .cuadros1 .text1 .text2{
+    width: 50%;
+    position: relative;
+    left: 80%;
+    top: -140%;
+}
+
+main .cuadros1 .cuadros2{
+    width: 60%;
+    height: 70%;
+    left: 10%;
+    top: 60%;
+    position: absolute;
+}
+
+/*------------cuadro1---------------*/
+
+main .cuadros1 .cuadros2 .cuadro1{
+    width: 31%;
+    height: 90%;
+    position: relative;
+    font-size: 15px;
+}
+
+main .cuadros1 .cuadros2 p{
+    position: relative;
+    top: 5%;
+}
+
+main .cuadros1 .cuadros2 .contenido1{
+    width: 125%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+}
+
+main .cuadros1 .cuadros2 .contenido1 span{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: xx-large;
+}
+
+main .cuadros1 .cuadros2 .contenido1 h3{
+    position: absolute;
+    top: 25%;
+    font-size: 40px;
+    text-align: center;    
+}
+
+/*------------cuadro2---------------*/
+
+main .cuadros1 .cuadros2 .cuadro2{
+    width: 31%;
+    height: 90%;
+    position: relative;
+    font-size: 15px;
+    left: 50%;
+    top: -90%;
+}
+
+main .cuadros1 .cuadros2 p{
+    position: relative;
+    top: 5%;
+}
+
+main .cuadros1 .cuadros2 .contenido2{
+    width: 125%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+}
+
+main .cuadros1 .cuadros2 .contenido2 span{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-size: xx-large;
+}
+
+main .cuadros1 .cuadros2 .contenido2 h3{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    font-size: 40px;
+    text-align: center;    
+}
+
+/*------------cuadro3-------------*/
+
+main .cuadros1 .cuadros2 .cuadro3{
+    width: 31%;
+    height: 90%;
+    position: relative;
+    font-size: 15px;
+    left: 100%;
+    top: -180%;
+}
+
+main .cuadros1 .cuadros2 p{
+    position: relative;
+    top: 5%;
+}
+
+main .cuadros1 .cuadros2 .contenido3{
+    width: 125%;
+    height: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--light-color);
+}
+
+main .cuadros1 .cuadros2 .contenido3 span{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: xx-large;
+}
+
+main .cuadros1 .cuadros2 .contenido3 h3{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 40px;
+    text-align: center;    
+}
+
+/*-----------Fondo 2------------------------*/
+
+main .fondo2{
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    top: 210%;
+    background-size: 100%;
+    background-position: center;
+    border: none;
+    background-image: url("fondo2.jpg");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+main .fondo2 h2{
+    width: 30%;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    color: var(--light-color);
+    font-size: 46px;
+    text-align: end;
+}
+
+main .fondo2 p{
+    width: 25%;
+    position: relative;
+    left: 55%;
+    top: 28%;
+    color: var(--light-color);
+    font-size: 20px;
+    text-align: end;
+
+}
+
+main .fondo2 button{
+    color: var(--secondary-color);
+    width: 12%;
+    height: 7%;
+    border-radius: 5px;
+    border-color: var(--light-color);
+    background-color: var(--light-color);    
+    border-style: solid;
+    position: relative;
+    top: 33%;
+    left: 68%;
+    transition: all 0.3s ease;
+
+}
+
+main .fondo2 button:hover{
+    color: var(--light-color);
+    width: 12%;
+    height: 7%;
+    border-radius: 5px;
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);    
+    border-style: solid;
+    position: relative;
+    top: 33%;
+    left: 68%;
+}
+
+/* ------------Products------------- */
+main .productos{
+    position: absolute;
+    top: 310%;
+    left: 20%;
+    width: 60vw;
+    height: 85%;
+    border: none;
+}
+
+main .productos .horario{
+    font-size: 40px;
+}
+
+main .productos .cuadroproducto{
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 85%;
+}
+
+main .productos .cuadroproducto button{
+    color: var(--light-color);
+    width: 25%;
+    height: 6%;
+    border-radius: 5px;
+    background-color: var(--primary-color); 
+    border-color: var(--primary-color);
+    border-style: solid;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+main .productos .cuadroproducto button:hover{
+    color: var(--light-color);
+    width: 25%;
+    height: 6%;
+    border-radius: 5px;
+    background-color: var(--dark-color); 
+    border-color: var(--dark-color);
+    border-style: solid;
+    position: relative;
+}
+
+main .productos .cuadroproducto h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ---------------PRODUCTO 1----------- */
+main .productos .cuadroproducto .producto1{
+    width: 32.5%;
+    height: 100%;
+    text-align: center;
+}
+
+main .productos .cuadroproducto .imgproduct1{
+    width: 100%;
+    height: 85%;
+    background-image: url("producto1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210%;
+    display: block;
+}
+
+/*----------------Producto 2--------------*/
+
+main .productos .cuadroproducto .producto2{
+    width: 32.5%;
+    height: 100%;
+    position: absolute;
+    left: 34%;
+    top: 0%;
+    text-align: center;
+}
+
+main .productos .cuadroproducto .imgproduct2{
+    width: 100%;
+    height: 85%;
+    background-image: url("producto2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250%;
+    display: block;
+}
+
+/*---------Producto 3----------------*/
+
+main .productos .cuadroproducto .producto3{
+    width: 32.5%;
+    height: 100%;
+    position: absolute;
+    left: 68%;
+    top: 0%;
+    text-align: center;
+}
+
+main .productos .cuadroproducto .producto3 .desc{
+    color: var(--primary-color);
+    text-decoration: line-through;
+}
+
+main .productos .cuadroproducto .imgproduct3{
+    width: 100%;
+    height: 85%;
+    background-image: url("producto3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210%;
+    display: block;
+}
+
+main .productos .cuadroproducto .ofert{
+    top: -82%;
+    left: 30%;
+}
+
+main .productos .todo{
+    position: absolute;
+    top: 111%;
+    left: 42.5%;
+    width: 15%;
+    height: 6%;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+    border-radius: 7px;
+    transition: all 0.3s ease;
+}
+
+main .productos .vert:hover{
+    position: absolute;
+    top: 104%;
+    left: 42.5%;
+    width: 15%;
+    height: 5%;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 7px;
+}
+
+/* ------------INFO--------------- */
+main .info{
+    position: absolute;
+    top: 420%;
+    width: 100%;
+    height: 90%;
+}
+
+main .info .mujer{
+    position: absolute;
+    top: 4%;
+    left: 20%;
+    width: 19%;
+    height: 55%;
+    background-image: url("mujer.jpg");
+    background-size: 250%;
+    background-repeat: no-repeat;
+    background-position: 70% 90%;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+main .info .cuadroinfo{
+    width: 50%;
+    height: 78%;
+    position: absolute;
+    top: 0%;
+    left: 32%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: var(--light-color)
+}
+
+main .info .cuadroinfo h2{
+    font-size: 40px;
+    position: relative;
+    top: 9%;
+    left: 40%;
+}
+
+main .info .cuadroinfo p{
+    font-size: 17px;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    width: 46%;
+    height: 70%;
+}

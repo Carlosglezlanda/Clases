@@ -129,34 +129,34 @@ main .fondomain{
 
 main .fondomain h1{
     width: 25%;
-    position: relative;
     left: 10%;
     top: 25%;
-    color: var(--light-color);
     font-size: 50px;
+    position: relative;
+    color: var(--light-color);
 }
 
 main .fondomain p{
     width: 25%;
-    position: relative;
     left: 10%;
     top: 28%;
-    color: var(--light-color);
     font-size: 15px;
+    position: relative;
+    color: var(--light-color);
 }
 
 main .fondomain button{
     background-color: rgba(0 ,0 ,0, 0);
-    color: var(--light-color);
     width: 7%;
     height: 7%;
     border-radius: 5px;
-    border-color: var(--light-color);
-    border-style: solid;
-    position: relative;
     top: 33%;
     left: 10%;
+    border-style: solid;
+    position: relative;
     transition: all 0.3s ease;
+    border-color: var(--light-color);
+    color: var(--light-color);
 }
 
 main .fondomain button:hover{
@@ -342,61 +342,59 @@ main .fondo2{
 
 main .fondo2 h2{
     width: 30%;
-    position: relative;
     left: 50%;
     top: 25%;
-    color: var(--light-color);
     font-size: 46px;
+    position: relative;
     text-align: end;
+    color: var(--light-color);
 }
 
 main .fondo2 p{
     width: 25%;
-    position: relative;
     left: 55%;
     top: 28%;
-    color: var(--light-color);
     font-size: 20px;
+    position: relative;
     text-align: end;
-
+    color: var(--light-color);
 }
 
 main .fondo2 button{
-    color: var(--secondary-color);
     width: 12%;
     height: 7%;
     border-radius: 5px;
-    border-color: var(--light-color);
-    background-color: var(--light-color);    
-    border-style: solid;
-    position: relative;
     top: 33%;
     left: 68%;
     transition: all 0.3s ease;
-
+    border-style: solid;
+    position: relative;
+    color: var(--secondary-color);
+    border-color: var(--light-color);
+    background-color: var(--light-color);    
 }
 
 main .fondo2 button:hover{
-    color: var(--light-color);
     width: 12%;
     height: 7%;
     border-radius: 5px;
-    border-color: var(--primary-color);
-    background-color: var(--primary-color);    
-    border-style: solid;
-    position: relative;
     top: 33%;
     left: 68%;
+    border-style: solid;
+    position: relative;
+    color: var(--light-color);
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);    
 }
 
 /* ------------Products------------- */
 main .productos{
-    position: absolute;
     top: 310%;
     left: 20%;
     width: 60vw;
     height: 85%;
     border: none;
+    position: absolute;
 }
 
 main .productos .horario{
@@ -404,33 +402,33 @@ main .productos .horario{
 }
 
 main .productos .cuadroproducto{
-    position: absolute;
     top: 20%;
     width: 100%;
     height: 85%;
+    position: absolute;
 }
 
 main .productos .cuadroproducto button{
-    color: var(--light-color);
     width: 25%;
     height: 6%;
     border-radius: 5px;
-    background-color: var(--primary-color); 
-    border-color: var(--primary-color);
     border-style: solid;
     position: relative;
     transition: all 0.3s ease;
+    color: var(--light-color);
+    background-color: var(--primary-color); 
+    border-color: var(--primary-color);
 }
 
 main .productos .cuadroproducto button:hover{
-    color: var(--light-color);
     width: 25%;
     height: 6%;
     border-radius: 5px;
-    background-color: var(--dark-color); 
-    border-color: var(--dark-color);
     border-style: solid;
     position: relative;
+    color: var(--light-color);
+    background-color: var(--dark-color); 
+    border-color: var(--dark-color);
 }
 
 main .productos .cuadroproducto h4{
@@ -447,11 +445,11 @@ main .productos .cuadroproducto .producto1{
 main .productos .cuadroproducto .imgproduct1{
     width: 100%;
     height: 85%;
-    background-image: url("producto1.jpg");
+    background-size: 210%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 210%;
     display: block;
+    background-image: url("producto1.jpg");
 }
 
 /*----------------Producto 2--------------*/
@@ -459,19 +457,19 @@ main .productos .cuadroproducto .imgproduct1{
 main .productos .cuadroproducto .producto2{
     width: 32.5%;
     height: 100%;
-    position: absolute;
     left: 34%;
     top: 0%;
+    position: absolute;
     text-align: center;
 }
 
 main .productos .cuadroproducto .imgproduct2{
     width: 100%;
     height: 85%;
+    background-size: 250%;
     background-image: url("producto2.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 250%;
     display: block;
 }
 
@@ -480,9 +478,9 @@ main .productos .cuadroproducto .imgproduct2{
 main .productos .cuadroproducto .producto3{
     width: 32.5%;
     height: 100%;
-    position: absolute;
     left: 68%;
     top: 0%;
+    position: absolute;
     text-align: center;
 }
 
@@ -494,10 +492,10 @@ main .productos .cuadroproducto .producto3 .desc{
 main .productos .cuadroproducto .imgproduct3{
     width: 100%;
     height: 85%;
+    background-size: 210%;
     background-image: url("producto3.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 210%;
     display: block;
 }
 
@@ -512,11 +510,11 @@ main .productos .todo{
     left: 42.5%;
     width: 15%;
     height: 6%;
+    border-radius: 7px;
     border: none;
+    transition: all 0.3s ease;
     background-color: var(--secondary-color);
     color: var(--light-color);
-    border-radius: 7px;
-    transition: all 0.3s ease;
 }
 
 main .productos .vert:hover{
@@ -525,59 +523,59 @@ main .productos .vert:hover{
     left: 42.5%;
     width: 15%;
     height: 5%;
+    border-radius: 7px;
     border: none;
     background-color: var(--primary-color);
     color: var(--light-color);
-    border-radius: 7px;
 }
 
 /* ------------INFO--------------- */
 main .info{
-    position: absolute;
     top: 420%;
     width: 100%;
     height: 90%;
+    position: absolute;
 }
 
-main .info .mujer{
+main .info .comentario{
     position: absolute;
     top: 4%;
     left: 20%;
     width: 19%;
     height: 55%;
-    background-image: url("mujer.jpg");
-    background-size: 250%;
-    background-repeat: no-repeat;
-    background-position: 70% 90%;
     border-radius: 5px;
     z-index: 3;
+    background-size: 250%;
+    background-position: 70% 90%;
+    background-repeat: no-repeat;
+    background-image: url("comentario.jpg");
 }
 
 main .info .cuadroinfo{
     width: 50%;
     height: 78%;
-    position: absolute;
     top: 0%;
     left: 32%;
-    background-color: var(--secondary-color);
     border-radius: 5px;
+    position: absolute;
+    background-color: var(--secondary-color);
     color: var(--light-color)
 }
 
 main .info .cuadroinfo h2{
     font-size: 40px;
-    position: relative;
     top: 9%;
     left: 40%;
+    position: relative;
 }
 
 main .info .cuadroinfo p{
     font-size: 17px;
-    position: relative;
     top: 10%;
     left: 40%;
     width: 46%;
     height: 70%;
+    position: relative;
 }
 
 /* estilo mejor */

@@ -113,6 +113,8 @@ main{
     /* background-color: rgba(0, 0, 0, 0); */
 }
 
+/* ------------------ PRIMER BANNER------------------- */
+
 main .fondomain{
     width: 100vw;
     height: 80vh;
@@ -169,6 +171,8 @@ main .fondomain button:hover{
     top: 33%;
     left: 10%;
 }
+
+/* -----------CUADROS----------- */
 
 main .cuadros1{
     position: absolute;
